@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ecf2f8;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+#testimonial-grid-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 3%;
+    max-width: 900px;
+    margin: 0 auto; 
+}
+
+#testimonial-1 {
+    background-color: #7541c8;
+    color: #ffffff;
+    flex-basis: 63%;
+}
+
+#testimonial-2 {
+    background-color: #48556a;
+    color: #ffffff;
+    flex-basis: 35%;
+}
+
+#testimonial-3 {
+    background-color: #ffffff;
+    flex-basis: 35%;
+    color: #48556a;
+}
+
+#testimonial-4 {
+    background-color: #19212e;
+    color: #ffffff;
+    flex-basis: 63%;
+}
+
+#testimonial-5 {
+    background-color: #ffffff;
+    flex-basis: 25%;
+    color: #48556a;
+}
+
+#main-left {
+    display: flex;
+    flex-basis: 73%;
+    flex-direction: column;
+}
+/* if using margin instead of flexbox to create gutters in between items
+/* #main-left .grid-item {
+    margin-right: 15px;
+}  */
+
+.grid-item {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.2);
+    font-size: 13px;
+}
+
+.grid-item p {
+    opacity: 70%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header .name {
+    opacity: 100%;
+    font-size: 1rem;
+}
+.header img {
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid darkgrey;
+}
+
+.grid-item h4 {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#top {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-between;
+}
+
+#bottom {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-between;
+}
+
